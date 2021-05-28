@@ -2,7 +2,7 @@
 
 Implement ArrayIntList.add(element)
 
-```java | {type: 'file', path:'./src/main/java/edu/csc216/array_list/ArrayIntList.java'}
+```java | {type: 'file', path:'/216/src/main/java/edu/ncsu/csc216/array_list/ArrayIntList.java'}
 
 package edu.ncsu.csc216.array_list;
 import java.util.Arrays;
