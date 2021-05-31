@@ -1,5 +1,9 @@
-package edu.ncsu.csc216.array_list;
+# Exercise 12.02
 
+Implement `ArrayIntList.add(element)` below, and click on the ✏ icon on top right corner:
+
+```java | {type: 'file', path:'/216/src/main/java/edu/ncsu/csc216/array_list/ArrayIntList.java'}
+package edu.ncsu.csc216.array_list;
 import java.util.Arrays;
 
 public class ArrayIntList {
@@ -22,18 +26,7 @@ public class ArrayIntList {
 	}
 
 	public void add(int value) {
-		ensureCapacity(size + 1);
-		list[size] = value;
-		size++;
-	}
-	
-	public void add(int idx, int value) {
-		ensureCapacity(size + 1);
-		for (int i = size - 1; i >= idx; i--) {
-			list[i + 1] = list[i];
-		}
-		list[idx] = value;
-		size++;
+		// TODO
 	}
 
 	public int get(int idx) {
@@ -65,3 +58,10 @@ public class ArrayIntList {
 	}
 
 }
+```
+
+Then click on ▶, to run the tests and verify your implementation:
+
+```bash | {type: 'command', failed_when: 'exitCode!=0'}
+mvn test -Dtest=ArrayIntListTest#testAdd
+```
