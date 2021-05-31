@@ -66,7 +66,23 @@ public class ArrayIntList {
 }
 ```
 
-Then click on ▶, to run the tests and verify your implementation:
+Here are some tests to verify your implementation:
+
+```java
+@Test
+public void testAddAtIdx() {
+    ArrayIntList list = new ArrayIntList();
+    assertEquals(0, list.size());
+    list.add(1);
+    list.add(2);
+    list.add(3);
+    list.add(1, 4);
+    assertEquals(4, list.size());
+    assertEquals(4, list.get(1));
+}
+```
+
+Click on ▶, to run the tests:
 
 ```bash | {type: 'command', failed_when: 'exitCode!=0'}
 mvn test -Dtest=ArrayIntListTest#testAddAtIdx
