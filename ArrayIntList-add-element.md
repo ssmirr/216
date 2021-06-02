@@ -16,6 +16,10 @@ public class ArrayIntList {
 		list = new int[capacity];
 		size = 0;
 	}
+
+	public void add(int value) {
+		// TODO
+	}
 	
 	public ArrayIntList() {
 		this(DEFAULT_SIZE);
@@ -23,10 +27,6 @@ public class ArrayIntList {
 	
 	public int size() {
 		return size;
-	}
-
-	public void add(int value) {
-		// TODO
 	}
 
 	public int get(int idx) {
