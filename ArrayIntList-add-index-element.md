@@ -85,5 +85,5 @@ public void testAddAtIdx() {
 Click on ▶, to run the tests:
 
 ```bash | {type: 'command', failed_when: 'exitCode!=0'}
-mvn test -Dtest=ArrayIntListTest#testAddAtIdx
+mvn test -q -Dtest=ArrayIntListTest#testAddAtIdx
 ```

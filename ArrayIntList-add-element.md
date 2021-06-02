@@ -76,5 +76,5 @@ public void testAdd() {
 Click on ▶, to run the tests:
 
 ```bash | {type: 'command', failed_when: 'exitCode!=0'}
-mvn test -Dtest=ArrayIntListTest#testAdd
+mvn test -q -Dtest=ArrayIntListTest#testAdd
 ```
