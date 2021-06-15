@@ -13,7 +13,13 @@ public class ArrayIntList {
 	}
 
 	public void add(int value) {
-		// TODO
+		ensureCapacity(size + 1);
+		list[size] = value;
+		size++;
+	}
+	
+	public void add(int idx, int value) {
+        // TODO
 	}
 	
 	public ArrayIntList() {
