@@ -53,16 +53,6 @@ public class ArrayIntList {
 		}
 	}
 
-	public int remove(int idx) {
-		int rtn = list[idx];
-		for (int i = idx; i < size - 1; i++) {
-			list[i] = list[i+1];
-		}
-		list[size-1] = 0;
-		size--;
-		return rtn;
-	}
-
 }
 ```
 
