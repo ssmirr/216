@@ -47,6 +47,11 @@ public class ArrayIntList {
 		}
 	}
 
+    public int remove(int idx) {
+        // placeholder...
+        return idx;
+    }
+
 }
 ```
 
