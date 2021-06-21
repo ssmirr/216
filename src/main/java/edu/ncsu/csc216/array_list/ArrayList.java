@@ -76,26 +76,31 @@ public class ArrayList<E> implements List<E> {
 		return rtn;
 	}
 
+	@Override
 	public int indexOf(E value) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
+	@Override
 	public boolean isEmpty() {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
+	@Override
 	public void set(int idx, E value) {
 		// TODO Auto-generated method stub
 		
 	}
 
+	@Override
 	public boolean contains(E value) {
 		// TODO Auto-generated method stub
 		return false;
 	}	
 
+	@Override
 	public Iterator<E> iterator() {
 		return new ArrayIterator();
 	}
@@ -108,10 +113,12 @@ public class ArrayList<E> implements List<E> {
 			idx = 0;
 		}
 		
+		@Override
 		public boolean hasNext() {
 			return idx < size();
 		}
 
+		@Override
 		public E next() {
 			idx++;
 			if (idx >= size) {
@@ -120,6 +127,7 @@ public class ArrayList<E> implements List<E> {
 			return get(idx-1);
 		}
 
+		@Override
 		public void remove() {
 			ArrayList.this.remove(idx-1);
 			idx--;
