@@ -14,32 +14,27 @@ public class LinkedList<E> extends AbstractList<E> {
 		size = 0;
 	}
 
-	@Override
 	public E get(int idx) {
 		// TODO
 
 		return (E) null;
 	}
 
-	@Override
 	public int size() {
 		// TODO
 
 		return 0;
 	}
 
-	@Override
 	public void add(int idx, E value) {
 		// Placeholder
 	}
 
-	@Override
 	public int indexOf(E value) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
-	@Override
 	public E remove(int idx) {
 		E value = null;
 		if (front == null) {
@@ -65,13 +60,11 @@ public class LinkedList<E> extends AbstractList<E> {
 		return value;
 	}
 
-	@Override
 	public void set(int idx, E value) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public Iterator<E> iterator() {
 		return new LinkedIterator();
 	}
@@ -97,12 +90,10 @@ public class LinkedList<E> extends AbstractList<E> {
 			current = front;
 		}
 		
-		@Override
 		public boolean hasNext() {
 			return current != null;
 		}
 
-		@Override
 		public E next() {
 			if (current == null) {
 				throw new NoSuchElementException();
@@ -112,7 +103,6 @@ public class LinkedList<E> extends AbstractList<E> {
 			return result;
 		}
 
-		@Override
 		public void remove() {
 			throw new UnsupportedOperationException();
 		}
