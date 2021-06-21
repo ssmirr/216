@@ -1,6 +1,6 @@
 # Exercise 12.04
 
-Implement `LinkedList.get(idx)` and `LinkedList.size()` below:
+Implement `LinkedList.add(int idx, E value)` below:
 
 ```java | {type: 'file', path:'/216/src/main/java/edu/ncsu/csc216/linked_list/LinkedList.java'}
 package edu.ncsu.csc216.linked_list;
