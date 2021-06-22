@@ -1,4 +1,4 @@
-# Exercise 12.04
+# Exercise 15.02
 
 Implement `LinkedList.get(idx)` and `LinkedList.size()` below, and then submit the Google Form at the bottom of the page.
 
