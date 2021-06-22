@@ -33,6 +33,21 @@ public class LinkedList<E> extends AbstractList<E> {
 		return 0;
 	}
 
+	public void add(E value) {
+		if (front == null) {
+			//adding to an empty list
+			front = new ListNode(value);
+		} else {
+			//adding to the end of an existing list
+			ListNode current = front; //avoid losing list
+			while (current.next != null) {
+				current = current.next;
+			}
+			current.next = new ListNode(value);
+		}
+		size++;
+	}
+
 	@Override
 	public void add(int idx, E value) {
 		// Placeholder
