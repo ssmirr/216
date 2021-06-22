@@ -1,6 +1,6 @@
 # Exercise 12.04
 
-Implement `LinkedList.add(int idx, E value)` below:
+Implement `LinkedList.add(int idx, E value)` below and then submit the Google Form at the bottom of the page.
 
 ```java | {type: 'file', path:'/216/src/main/java/edu/ncsu/csc216/linked_list/LinkedList.java'}
 package edu.ncsu.csc216.linked_list;
@@ -145,3 +145,10 @@ Click on ▶, to run the tests:
 ```bash | {type: 'command', failed_when: 'exitCode!=0'}
 mvn test -q -Dtest=LinkedListAddTest
 ```
+
+<br>
+
+And finally submit the google form below:
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfqfWpzgVw_LdYmRTSnAwFTvKNvJxDrRZ_XC8JzLhaVl16WCg/viewform?embedded=true" height="3963" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%;">Loading…</iframe>

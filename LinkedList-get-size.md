@@ -1,6 +1,6 @@
 # Exercise 12.04
 
-Implement `LinkedList.get(idx)` and `LinkedList.size()` below:
+Implement `LinkedList.get(idx)` and `LinkedList.size()` below, and then submit the Google Form at the bottom of the page.
 
 ```java | {type: 'file', path:'/216/src/main/java/edu/ncsu/csc216/linked_list/LinkedList.java'}
 package edu.ncsu.csc216.linked_list;
@@ -157,3 +157,10 @@ Click on ▶, to run the tests:
 ```bash | {type: 'command', failed_when: 'exitCode!=0'}
 mvn test -q -Dtest=LinkedListGetSizeTest
 ```
+
+<br>
+
+And finally submit the google form below:
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf7RzX-JSMQlAgLNPH12kNYabtt3Ec8MrzCACShUHN1wVXUVQ/viewform?embedded=true" height="3963" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%;">Loading…</iframe>
