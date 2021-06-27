@@ -1,8 +1,8 @@
-# Exercise 15.03
+# Exercise 15.02
 
-Implement `LinkedList.add(int idx, E value)` below and then submit the Google Form at the bottom of the page.
+Implement `LinkedList.get(idx)` and `LinkedList.size()` below, and then submit the Google Form at the bottom of the page.
 
-```java | {type: 'file', path:'/216/src/main/java/edu/ncsu/csc216/linked_list/LinkedList.java'}
+```java | {type: 'file', path:'/216/15.02/src/main/java/edu/ncsu/csc216/linked_list/LinkedList.java'}
 package edu.ncsu.csc216.linked_list;
 
 import java.util.Iterator;
@@ -20,22 +20,37 @@ public class LinkedList<E> extends AbstractList<E> {
 	}
 
 	@Override
-	public void add(int idx, E value) {
-		// TODO
-	}
-
-	@Override
 	public E get(int idx) {
-		ListNode current = front;
-		for (int i = 0; i < idx; i++) {
-			current = current.next;
-		}
-		return current.data;
+		// TODO
+
+		return (E) null;
 	}
 
 	@Override
 	public int size() {
-		return size;
+		// TODO
+
+		return 0;
+	}
+
+	public void add(E value) {
+		if (front == null) {
+			//adding to an empty list
+			front = new ListNode(value);
+		} else {
+			//adding to the end of an existing list
+			ListNode current = front; //avoid losing list
+			while (current.next != null) {
+				current = current.next;
+			}
+			current.next = new ListNode(value);
+		}
+		size++;
+	}
+
+	@Override
+	public void add(int idx, E value) {
+		// Placeholder
 	}
 
 	@Override
@@ -129,7 +144,7 @@ Here are some tests to verify your implementation:
 
 ```java
 @Test
-public void testAdd() {
+public void testGet() {
     LinkedList<String> list = new LinkedList<String>();
     list.add(0, "Hello");
     list.add(1, "CSC");
@@ -138,12 +153,24 @@ public void testAdd() {
     assertEquals("CSC", list.get(1));
     assertEquals("216", list.get(2));
 }
+
+@Test
+public void testSize() {
+    LinkedList<Integer> list = new LinkedList<Integer>();
+    assertEquals(0, list.size());
+    list.add(0, 0);
+    assertEquals(1, list.size());
+    list.add(1, 1);
+    assertEquals(2, list.size());
+    list.add(2, 2);
+    assertEquals(3, list.size());
+}
 ```
 
 Click on ▶, to run the tests:
 
 ```bash | {type: 'command', failed_when: 'exitCode!=0'}
-mvn test -q -Dtest=LinkedListAddTest
+cd 15.02 && mvn test -q -Dtest=LinkedListGetSizeTest
 ```
 
 <br>
@@ -151,4 +178,4 @@ mvn test -q -Dtest=LinkedListAddTest
 And finally submit the google form below:
 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfqfWpzgVw_LdYmRTSnAwFTvKNvJxDrRZ_XC8JzLhaVl16WCg/viewform?embedded=true" height="3963" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%;">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf7RzX-JSMQlAgLNPH12kNYabtt3Ec8MrzCACShUHN1wVXUVQ/viewform?embedded=true" height="3963" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%;">Loading…</iframe>

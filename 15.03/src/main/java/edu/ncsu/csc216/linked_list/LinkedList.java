@@ -1,8 +1,3 @@
-# Exercise 12.04
-
-Implement `LinkedList.add(int idx, E value)` below:
-
-```java | {type: 'file', path:'/216/src/main/java/edu/ncsu/csc216/linked_list/LinkedList.java'}
 package edu.ncsu.csc216.linked_list;
 
 import java.util.Iterator;
@@ -20,27 +15,42 @@ public class LinkedList<E> extends AbstractList<E> {
 	}
 
 	@Override
-	public void add(int idx, E value) {
-		// TODO
-	}
-
-	@Override
 	public E get(int idx) {
-		ListNode current = front;
-		for (int i = 0; i < idx; i++) {
-			current = current.next;
-		}
-		return current.data;
+		// TODO
+
+		return (E) null;
 	}
 
 	@Override
 	public int size() {
-		return size;
+		// TODO
+
+		return 0;
+	}
+
+    public void add(E value) {
+		if (front == null) {
+			//adding to an empty list
+			front = new ListNode(value);
+		} else {
+			//adding to the end of an existing list
+			ListNode current = front; //avoid losing list
+			while (current.next != null) {
+				current = current.next;
+			}
+			current.next = new ListNode(value);
+		}
+		size++;
+	}
+
+	@Override
+	public void add(int idx, E value) {
+		// Placeholder
 	}
 
 	@Override
 	public int indexOf(E value) {
-		// Auto-generated method stub
+		// TODO Auto-generated method stub
 		return 0;
 	}
 
@@ -72,7 +82,7 @@ public class LinkedList<E> extends AbstractList<E> {
 
 	@Override
 	public void set(int idx, E value) {
-		// Auto-generated method stub
+		// TODO Auto-generated method stub
 		
 	}
 
@@ -121,31 +131,8 @@ public class LinkedList<E> extends AbstractList<E> {
 		public void remove() {
 			throw new UnsupportedOperationException();
 		}
+		
 	}
+
+
 }
-```
-
-Here are some tests to verify your implementation:
-
-```java
-@Test
-public void testAdd() {
-    LinkedList<String> list = new LinkedList<String>();
-    list.add(0, "Hello");
-    list.add(1, "CSC");
-    list.add(2, "216");
-    assertEquals("Hello", list.get(0));
-    assertEquals("CSC", list.get(1));
-    assertEquals("216", list.get(2));
-}
-```
-
-Click on ▶, to run the tests:
-
-```bash | {type: 'command', failed_when: 'exitCode!=0'}
-mvn test -q -Dtest=LinkedListAddTest
-```
-
-
-```bash | {type: 'terminal'}
-```
