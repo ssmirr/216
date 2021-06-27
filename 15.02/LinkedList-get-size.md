@@ -170,7 +170,7 @@ public void testSize() {
 Click on ▶, to run the tests:
 
 ```bash | {type: 'command', failed_when: 'exitCode!=0'}
-cd 15.02 && mvn test -q -Dtest=LinkedListGetSizeTest
+mvn test -q -Dtest=LinkedListGetSizeTest
 ```
 
 <br>

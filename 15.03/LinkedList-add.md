@@ -143,7 +143,7 @@ public void testAdd() {
 Click on ▶, to run the tests:
 
 ```bash | {type: 'command', failed_when: 'exitCode!=0'}
-cd 15.03 && mvn test -q -Dtest=LinkedListAddTest
+mvn test -q -Dtest=LinkedListAddTest
 ```
 
 <br>
