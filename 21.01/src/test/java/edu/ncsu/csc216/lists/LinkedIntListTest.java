@@ -5,7 +5,8 @@ import junit.framework.TestCase;
 public class LinkedIntListTest extends TestCase {
 	
 	private LinkedIntList l;
-
+	
+    @Before
 	protected void setUp() throws Exception {
 		super.setUp();
 		
@@ -13,6 +14,7 @@ public class LinkedIntListTest extends TestCase {
 		l.add(4); l.add(-7); l.add(23); l.add(-1);
 	}
 	
+    @Test
 	public void testContains() {
 		assertTrue(l.contains(4));
 		assertFalse(l.contains(42));
