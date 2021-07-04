@@ -1,8 +1,10 @@
 package edu.ncsu.csc216.lists;
 
-import junit.framework.TestCase;
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
 
-public class LinkedIntListTest extends TestCase {
+public class LinkedIntListTest {
 	
 	private LinkedIntList l;
 	
