@@ -9,7 +9,7 @@ public class LinkedIntListTest {
 	private LinkedIntList l;
 	
     @Before
-	protected void setUp() throws Exception {		
+	public void setUp() throws Exception {		
 		l = new LinkedIntList();
 		l.add(4); l.add(-7); l.add(23); l.add(-1);
 	}
