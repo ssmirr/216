@@ -31,4 +31,6 @@ public class BinarySearch {
 
 And finally submit the google form below:
 
+> _If you are not able to see questions below [click here](https://docs.google.com/forms/d/e/1FAIpQLSdWX509ct4dpfxQlUi53CzzCbl0v2TbVbHOz-8erD-G2ajbyQ/viewform?formkey=dDdwaDBrMllQZWdWMy11bXZpNzdGNEE6MQ#gid=0) to open the form in a new tab._
+
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdWX509ct4dpfxQlUi53CzzCbl0v2TbVbHOz-8erD-G2ajbyQ/viewform?embedded=true" height="3963" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%;">Loading…</iframe>

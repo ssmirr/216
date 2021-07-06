@@ -112,4 +112,6 @@ mvn test -q -Dtest=LinkedIntListTest
 
 And finally submit the google form below:
 
+> _If you are not able to see questions below [click here](https://docs.google.com/forms/d/e/1FAIpQLSfCVOB5gIJwMIDjsOQdUmgcGp25zImGAmqDhC25hEzr5P0ojQ/viewform?hl=en_US&formkey=dDJORUdxTTBOalFHTWdmdUpQLWkyemc6MQ#gid=0) to open the form in a new tab._
+
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCVOB5gIJwMIDjsOQdUmgcGp25zImGAmqDhC25hEzr5P0ojQ/viewform?embedded=true" height="3963" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%;">Loading…</iframe>
