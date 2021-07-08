@@ -19,7 +19,7 @@ public class BinarySearchTree {
 	
     public boolean contains(int value) {
 		// TODO
-        return false
+        return false;
 	}
 	
 	private boolean contains(IntTreeNode root, int value) {
