@@ -4,7 +4,7 @@ Write the `getMin()` method that returns the smallest value of the BST.
 
 Assume the `getMin` method belongs to a `SearchTree` class that has a pointer to the root node. You should write a public/private pair.
 
-```java | {type: 'file', path: '/216/26.03/src/main/java/edu/ncsu/csc216/searching_sorting/bst/BinarySearchTree.java'}
+```java | {type: 'file', path: '/216/26.04/src/main/java/edu/ncsu/csc216/searching_sorting/bst/BinarySearchTree.java'}
 package edu.ncsu.csc216.searching_sorting.bst;
 
 import java.util.NoSuchElementException;

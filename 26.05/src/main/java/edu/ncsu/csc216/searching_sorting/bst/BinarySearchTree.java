@@ -76,6 +76,20 @@ public class BinarySearchTree {
 		return traversal;
 	}
 
+	public int getMin() {
+		if (overallRoot == null) {
+			throw new NoSuchElementException();
+		}
+		return getMin(overallRoot);
+	}
+	
+	private int getMin(IntTreeNode root) {
+		if (root.left == null) {
+			return root.data;
+		} else {
+			return getMin(root.left);
+		}
+	}
 
 	private class IntTreeNode {
 		public int data;

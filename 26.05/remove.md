@@ -2,7 +2,7 @@
 
 Write a `remove` method that removes the given integer value from the tree, if present. Throw a `NoSuchElementException` if the value doesn't exist in the tree.
 
-```java | {type: 'file', path: '/216/26.03/src/main/java/edu/ncsu/csc216/searching_sorting/bst/BinarySearchTree.java'}
+```java | {type: 'file', path: '/216/26.05/src/main/java/edu/ncsu/csc216/searching_sorting/bst/BinarySearchTree.java'}
 package edu.ncsu.csc216.searching_sorting.bst;
 
 import java.util.NoSuchElementException;
