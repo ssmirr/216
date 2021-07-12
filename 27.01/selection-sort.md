@@ -1,6 +1,6 @@
 # Exercise 27.01: 
 
-Write a selection sort method.
+Write a selection sort method, and run it ▶ to see if it can sort the provided array in main method. Then submit the Google Form at the bottom of the page.
 
 ```java | {type: 'script'}
 import java.util.Arrays;
