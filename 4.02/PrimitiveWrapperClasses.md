@@ -1,4 +1,4 @@
-# Exercise 4.01:
+# Exercise 4.02:
 
 Given an `ArrayList` of `Integer`s.
 
