@@ -43,7 +43,7 @@ public class ArrayListExercise {
 	
     public static void removeS(ArrayList<String> list) {
         // implement method here
-
+        
     }
 	
 	public static void main(String[] args) {
