@@ -1,6 +1,6 @@
 # Exercise 5.01:
 
-![](./imgs/StewIngredients.jpg)
+![](StewIngredients.jpg)
 
 
 <br>
