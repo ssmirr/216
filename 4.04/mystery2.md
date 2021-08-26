@@ -1,4 +1,4 @@
-# Exercise 4.03: 
+# Exercise 4.04: 
 
 If `mystery1()` method is given an ArrayList that contains `[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]`
 
