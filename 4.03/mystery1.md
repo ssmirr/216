@@ -4,7 +4,7 @@ If `mystery1()` method is given an ArrayList that contains `[10, 20, 30, 40, 50,
 
 what is in the ArrayList after execution of `mystery1()`?
 
-You should be able to trace this Here is a coding playground, you can modify and run it ▶. Then submit the Google Form at the bottom of the page.
+You may be able to trace the program, but here is a coding playground so you can try to modify and run the code to see results ▶. Then submit the Google Form at the bottom of the page.
 
 ```java | {type: 'script'}
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ public class Mystery1 {
 		
 
         // TODO: now run mystery and check the values
-
+        
 	}
 
     public static void mystery1(ArrayList<Integer> list) {
