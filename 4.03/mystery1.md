@@ -1,8 +1,6 @@
 # Exercise 4.03: 
 
-If `mystery1()` method is given an ArrayList that contains `[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]`
-
-what is in the ArrayList after execution of `mystery1()`?
+If `mystery1()` method is given an ArrayList that contains `[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]`, what is in the ArrayList after execution of `mystery1()`?
 
 You may be able to trace the program, but here is a coding playground so you can try to modify and run the code to see results ▶. Then submit the Google Form at the bottom of the page.
 
