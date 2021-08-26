@@ -13,7 +13,7 @@ public class Mystery1 {
 	
 	public static void main(String[] args) {
 
-        ArrayList<Integer> values = new ArrayList<Integr>();
+        ArrayList<Integer> values = new ArrayList<Integer>();
         for (int i = 10; i <= 100; i += 10) {
             values.add(i);
         } // [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
@@ -23,7 +23,7 @@ public class Mystery1 {
 
 	}
 
-    public void mystery1(ArrayList<Integer> list) {
+    public static void mystery1(ArrayList<Integer> list) {
         for (int i = 0; i < list.size(); i++) {
             list.remove(i);
         }
